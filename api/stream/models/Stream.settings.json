@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "stream",
+  "info": {
+    "name": "stream",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "description": {
+      "default": "",
+      "type": "text"
+    },
+    "courses": {
+      "collection": "course",
+      "via": "stream"
+    }
+  }
+}

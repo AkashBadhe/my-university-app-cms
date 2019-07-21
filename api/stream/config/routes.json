@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/streams",
+      "handler": "Stream.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/streams/count",
+      "handler": "Stream.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/streams/:_id",
+      "handler": "Stream.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/streams",
+      "handler": "Stream.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/streams/:_id",
+      "handler": "Stream.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/streams/:_id",
+      "handler": "Stream.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
