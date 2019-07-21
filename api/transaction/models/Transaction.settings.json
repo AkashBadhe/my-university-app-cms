@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "transaction",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "model": "user",
+      "via": "transactions",
+      "plugin": "users-permissions"
+    },
+    "amount": {
+      "default": "",
+      "type": "decimal"
+    },
+    "date": {
+      "default": "",
+      "type": "date"
+    },
+    "bill": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
