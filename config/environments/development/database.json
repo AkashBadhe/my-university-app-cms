@@ -5,14 +5,14 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "ds347917.mlab.com",
-        "port": 47917,
-        "database": "collection_app_dev_db",
-        "username": "admin",
-        "password": "admin123"
+        "host": "ds353457.mlab.com",
+        "port": 53457,
+        "database": "my-university-dev-db",
+        "username": "admin2",
+        "password": "mystep1"
       },
       "options": {
-        "authenticationDatabase": "collection_app_dev_db",
+        "authenticationDatabase": "my-university-dev-db",
         "ssl": false
       }
     }
