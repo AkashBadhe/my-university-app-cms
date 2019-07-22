@@ -16,10 +16,6 @@
     "description": {
       "default": "",
       "type": "text"
-    },
-    "courses": {
-      "collection": "course",
-      "via": "stream"
     }
   }
 }

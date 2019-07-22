@@ -16,9 +16,6 @@
     "description": {
       "default": "",
       "type": "text"
-    },
-    "syllabus": {
-      "model": "syllabus"
     }
   }
 }

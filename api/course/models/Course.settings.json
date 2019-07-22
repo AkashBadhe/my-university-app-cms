@@ -16,13 +16,6 @@
     "description": {
       "default": "",
       "type": "text"
-    },
-    "semester": {
-      "model": "semester"
-    },
-    "stream": {
-      "model": "stream",
-      "via": "courses"
     }
   }
 }
